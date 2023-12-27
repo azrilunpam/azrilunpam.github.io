@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #172abd;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.produk {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;
+    margin-bottom: 50px;
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em;
+    max-width: 300px;
+    text-align: center;
+}
+
+.item img {
+    height: 250px;
+    width: 250px;
+}
+
+.harga {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+footer {
+    background-color: #172abd;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
